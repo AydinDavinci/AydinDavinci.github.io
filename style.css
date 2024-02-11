@@ -1,138 +1,143 @@
-body {
-    background-color: #1A1A1D;
-    height: 2000px;
-    font-family: 'Chakra Petch', sans-serif;
-}
+    body {
+        background-color: #1A1A1D;
+        height: 2000px;
+        font-family: 'Chakra Petch', sans-serif;
+    }
 
-h1 {
-    color:#c3073F;
-    font-weight: bold;
-}
+    h1 {
+        color: #c3073F;
+        font-weight: bold;
+    }
 
-#header {
-    color: #ffffff;
-    width: 50%;
-    height: 310px;
-    padding-top: 5px;
-    padding-left: 10px;
-    margin: auto;
-    text-align: center;
-    border-color: #c3073F;
-    border-style: solid;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px #c3073F;
+    #header {
+        color: #ffffff;
+        width: 50%;
+        height: 310px;
+        padding-top: 5px;
+        padding-left: 10px;
+        margin: auto;
+        text-align: center;
+        border-color: #c3073F;
+        border-style: solid;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #c3073F;
 
-}
+    }
 
-#banner {
-    position: relative;
-    background: url('media/giphy.gif') center center/cover no-repeat; 
-    color: white; 
-    padding: 50px;
-    text-align: center;
+    #banner {
+        position: relative;
+        background: url('media/giphy.gif') center center/cover no-repeat;
+        color: white;
+        padding: 50px;
+        text-align: center;
 
-}
-#header  h1{
-    color:#ff7ca3;
-    text-shadow: 2px 2px 5px #c3073F;
-}
+    }
 
-#header p {
-    font-size: 1.4em;
-}
-#nav {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    margin-top: 20px;
-}
-ul {
-    margin: center;
-    text-align: center;
-    text-decoration: none;
-    display: inline;
-    color: red;
-    margin-top: 20px;
-}
+    #header h1 {
+        color: #ff7ca3;
+        text-shadow: 2px 2px 5px #c3073F;
+    }
 
-li {
-    display: inline;
+    #header p {
+        font-size: 1.4em;
+    }
 
-}
+    #nav {
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        margin-top: 20px;
+    }
 
-li a {
+    ul {
+        margin: center;
+        text-align: center;
+        text-decoration: none;
+        display: inline;
+        color: red;
+        margin-top: 20px;
+    }
 
-    color:#c3073F;
-    font-size: 1.5em;
-    padding-left: 20px;
-    text-shadow: 0px 0px 5px #c3073F;
-    text-decoration: none;
-}
+    li {
+        display: inline;
 
-li a:hover{
-    color:#7f0f31;
-    text-decoration: underline;
-}   
+    }
 
-.block {
-    border-color: #c3073F;
-    border-style: solid;
-    border-radius: 5px;
-    width: 50%;
-    height: 300px;
-    margin: auto;
-}
+    li a {
 
-.flex-container {
-    display: flex;
-    width: 100%;
-    margin: auto;
-  }
+        color: #c3073F;
+        font-size: 1.5em;
+        padding-left: 20px;
+        text-shadow: 0px 0px 5px #c3073F;
+        text-decoration: none;
+    }
 
-  .flex-container > div {
-    color:white;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    margin: auto;
-    border-color: #c3073F;
-    border-style: solid;
-    border-radius: 25px;
-    padding-top: 20px;
-    box-shadow: 0px 0px 10px #c3073F;
-    background-color: #18181a;
-  }
+    li a:hover {
+        color: #7f0f31;
+        text-decoration: underline;
+    }
 
-.flex-container i {
-    margin: auto;
-    color: #c3073f;
-    text-shadow: 0px 0px 10px #c3073F;
-    font-size: 5em;
-}
-#banner img {
-    z-index: -1;
-}
+    .block {
+        border-color: #c3073F;
+        border-style: solid;
+        border-radius: 5px;
+        width: 50%;
+        height: 300px;
+        margin: auto;
+    }
 
-#topic-title {
-    color: #c3073f;
-    font-size: 2em;
-}
+    .flex-container {
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
 
-#topic-title i {
-    text-shadow: 0px 0px 10px #c3073F;
-}
+    .flex-container>div {
+        color: white;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        margin: auto;
+        border-color: #c3073F;
+        border-style: solid;
+        border-radius: 25px;
+        padding-top: 20px;
+        box-shadow: 0px 0px 10px #c3073F;
+        background-color: #18181a;
+    }
 
-.splitter {
-    width: 100%;
-    height: 2px;
-    background-color:#c3073F;
-    box-shadow: 0px 0px 10px #c3073F;
-}
+    .flex-container i {
+        margin: auto;
+        color: #c3073f;
+        text-shadow: 0px 0px 10px #c3073F;
+        font-size: 5em;
+    }
 
-.readMore {
-        background-color: #c3073F;;
+    #banner img {
+        z-index: -1;
+    }
+
+    #topic-title {
+        color: #c3073f;
+        font-size: 2em;
+    }
+
+    #topic-title i {
+        text-shadow: 0px 0px 10px #c3073F;
+    }
+
+    .splitter {
+        width: 100%;
+        height: 2px;
+        background-color: #c3073F;
+        box-shadow: 0px 0px 10px #c3073F;
+    }
+
+    .readMore {
+        background-color: #c3073F;
+        ;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -142,145 +147,148 @@ li a:hover{
         font-size: 16px;
         border-radius: 10px;
         box-shadow: 0px 0px 10px #c3073F;
-}
+    }
 
-.readMore:hover {
-    text-shadow: 0px 0px 10px white;
-}
+    .readMore:hover {
+        text-shadow: 0px 0px 10px white;
+    }
 
-.hobbyCard {
-    height: 50%;
-    width: 30%;
-    border-color: #c3073F;
-    border-style: solid;
-    border-radius: 5px;
-    text-align: left;
-    box-shadow: 0px 0px 10px #c3073F;
-    display: inline-block;
-    padding: 50px;
-    color: #c3073F;;
-    text-shadow: 0px 0px 5px #c3073F;
-    margin-top: 100px;
-    margin-right: 2%;
-    margin-left: 2%;
-    background-color: #18181a;
-}
+    .hobbyCard {
+        height: 50%;
+        width: 30%;
+        border-color: #c3073F;
+        border-style: solid;
+        border-radius: 5px;
+        text-align: left;
+        box-shadow: 0px 0px 10px #c3073F;
+        display: inline-block;
+        padding: 50px;
+        color: #c3073F;
+        ;
+        text-shadow: 0px 0px 5px #c3073F;
+        margin-top: 100px;
+        margin-right: 2%;
+        margin-left: 2%;
+        background-color: #18181a;
+    }
 
-.hobbyCard i {
-    font-size: 5em;
-}
+    .hobbyCard i {
+        font-size: 5em;
+    }
 
-.hobbyCard p {
-    text-align: right;
-    display: inline;
-    font-size: 24px;
-    color: white;
-    text-shadow: none;
-    font-family: 'Chakra Petch', sans-serif;
-}
-h6 {
-    text-align: right;
-    display: inline;
-    color: white;
-    text-shadow: none;
-    font-family: 'Chakra Petch', sans-serif;
-}
+    .hobbyCard p {
+        text-align: right;
+        display: inline;
+        font-size: 24px;
+        color: white;
+        text-shadow: none;
+        font-family: 'Chakra Petch', sans-serif;
+    }
 
-.flex-hobby {
-    display: inline;
-    width: 100%;
-    margin: auto;
-    flex-wrap: wrap;
-  }
-.flex-hobby i{
-    font-size: 5em;
-  }
+    h6 {
+        text-align: right;
+        display: inline;
+        color: white;
+        text-shadow: none;
+        font-family: 'Chakra Petch', sans-serif;
+    }
 
+    .flex-hobby {
+        display: inline;
+        width: 100%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
 
-::-webkit-scrollbar {
-    width: 5px;
-    background: #1A1A1D; 
-  }
-  
-  
-  ::-webkit-scrollbar-track {
-    background: 1A1A1D;
-  }
-   
-  
-  ::-webkit-scrollbar-thumb {
-    background: #c3073F;
-    border-radius: 2px;
-  }
-  
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #c3073F;
-  }
-
-.werkCard {
-    width: 40%;
-    border-color: #c3073F;
-    border-style: solid;
-    border-radius: 5px;
-    text-align: left;
-    box-shadow: 0px 0px 10px #c3073F;
-    padding: 50px;
-    color: #c3073F;
-    text-shadow: 0px 0px 5px #c3073F;
-    margin-top: 100px;
-    margin-right: 2%;
-    margin-left: 2%;
-    margin: auto;
-    margin-bottom: 100px;
-    background-color: #18181a;
-}
+    .flex-hobby i {
+        font-size: 5em;
+    }
 
 
+    ::-webkit-scrollbar {
+        width: 5px;
+        background: #1A1A1D;
+    }
 
-.werkCard p {
-    display: inline;
-    font-size: 24px;
-    color: white;
-    text-shadow: none;
-    font-family: 'Chakra Petch', sans-serif;
-}
 
-.flex-werk i {
-    font-size: 3em;
-    color: #c3073F;
-    text-shadow: 0px 0px 5px #c3073F;
-}
+    ::-webkit-scrollbar-track {
+        background: 1A1A1D;
+    }
 
-.werkCard h2 {
-    color: white;
-    text-shadow: none;
-}
 
-.contactCard {
-    color:white;
-    width: 1000px;
-    height: 1000px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    margin: auto;
-    border-color: #c3073F;
-    border-style: solid;
-    border-radius: 25px;
-    box-shadow: 0px 0px 10px #c3073F;
-    background-color: #18181a;
-    display: inline;
-    padding: 20px;
-}
+    ::-webkit-scrollbar-thumb {
+        background: #c3073F;
+        border-radius: 2px;
+    }
 
-.contactCard i {
-    font-size: 30px;
-    color: #c3073F;
-    text-shadow: 0px 0px 5px #c3073F;
-}
 
-.flex-contact h2 {
-    color: #c3073F;
-    text-shadow: 0px 0px 5px #c3073F;
-}
+    ::-webkit-scrollbar-thumb:hover {
+        background: #c3073F;
+    }
+
+    .werkCard {
+        width: 40%;
+        border-color: #c3073F;
+        border-style: solid;
+        border-radius: 5px;
+        text-align: left;
+        box-shadow: 0px 0px 10px #c3073F;
+        padding: 50px;
+        color: #c3073F;
+        text-shadow: 0px 0px 5px #c3073F;
+        margin-top: 100px;
+        margin-right: 2%;
+        margin-left: 2%;
+        margin: auto;
+        margin-bottom: 100px;
+        background-color: #18181a;
+    }
+
+
+
+    .werkCard p {
+        display: inline;
+        font-size: 24px;
+        color: white;
+        text-shadow: none;
+        font-family: 'Chakra Petch', sans-serif;
+    }
+
+    .flex-werk i {
+        font-size: 3em;
+        color: #c3073F;
+        text-shadow: 0px 0px 5px #c3073F;
+    }
+
+    .werkCard h2 {
+        color: white;
+        text-shadow: none;
+    }
+
+    .contactCard {
+        color: white;
+        width: 1000px;
+        height: 1000px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        margin: auto;
+        border-color: #c3073F;
+        border-style: solid;
+        border-radius: 25px;
+        box-shadow: 0px 0px 10px #c3073F;
+        background-color: #18181a;
+        display: inline;
+        padding: 20px;
+    }
+
+    .contactCard i {
+        font-size: 30px;
+        color: #c3073F;
+        text-shadow: 0px 0px 5px #c3073F;
+    }
+
+    .flex-contact h2 {
+        color: #c3073F;
+        text-shadow: 0px 0px 5px #c3073F;
+    }   
