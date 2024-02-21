@@ -2,6 +2,7 @@
         background-color: #1A1A1D;
         height: 2000px;
         font-family: 'Chakra Petch', sans-serif;
+        animation: fadeIn 3s;
     }
 
     h1 {
@@ -135,7 +136,7 @@
 
     .readMore {
         background-color: #c3073F;
-        ;
+        animation: fadeIn 3s;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -315,3 +316,8 @@
       }
 
     
+@keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+      
