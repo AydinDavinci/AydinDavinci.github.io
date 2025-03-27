@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Voorbereiding | Lingo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+    <script src="https://kit.fontawesome.com/b2d7d488f2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="functies.html">Functies</a></li>
+                <li><a href="voorbereiding.html">Voorbereiding</a></li>
+                <li><a href="LingoPythonEditie.zip" download="LingoPythonEditie.zip" id="download-nav-btn">Download (.zip)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img id="logo" src="media/python-lingo-logo.png">
+        <h1>Voorbereidingen van het programma</h1>
+        <h2 style="text-align: left;">Flowchart</h2>
+        <img id="flowchart-img" src="media/lingoFlowchart.drawio.png">
+        <p>De eerste vorm van voorbereiding voor de opdracht was het maken van een flowchart, ik heb dit gemaakt met behulp van <a href="https://draw.io" target="_blank">draw.io</a>.<br> De flowchart zit simpel in elkaar zodat het leesbaar is voor iedereen, zelfs voor mensen die geen ervaring hebben met programmeren. </p>
+        <br><h2 style="text-align: left;">Psuedocode</h2>
+        <div class="code-box">
+         <p>   importeer random<br>
+
+terwijl True:<br><br>
+    print: welkom bij lingo!<br><br>
+
+    secret_woord = kies een woord uit woordenboek<br><br>
+
+    terwijl True:<br><br>
+
+    print de eerste letter van het woord en verberg de rest behalve de bekende letter<br><br>
+
+        verwissel beurt van team en start ronde<br><br>
+        pogingen = 0<br><br>
+        terwijl True:<br><br>
+            keuze = invoer: raad het 5-letter woord<br><br>
+
+            als keuze gelijk is aan secret_woord:<br><br>
+                pak 2 ballen<br><br>
+                als de bal rood is:<br><br>
+                    rode_bal + 1<br><br>
+                    break<br>
+                anders als groene bal:<br><br>
+                    groene_bal + 1<br><br>
+                anders als groene_bal gelijk is aan 3:<br><br>
+                    team wint!<br>
+                anders als rode_bal gelijk is aan 3:<br><br>
+                    team verliest!<br><br>
+                anders:<br><br>
+                controlleer of nummer in bingo kaart zit<br><br>
+                    als 4 op en rij:<br><br>
+                        team wint!<br><br>
+                    anders:<br><br>
+                        break<br><br>
+            anders:<br><br>
+                fouten_woorden +1<br><br>
+                poging + 1<br><br>
+                als fouten_woorden gelijk is aan 3:<br><br>
+                    team verliest!<br><br>
+                als pogingen minder is dan 5:<br><br>
+                    check of er goede letters in zitten en die laten zien<br><br> 
+                anders<br><br> 
+                    break<br><br>
+    break<br><br>
+    
+    nog een keer spelen?<br><br>
+    als keuze gelijk is aan nee:<br><br>
+        break<br></p>
+        </div>
+        <p>Daarna heb ik een Psuedocode gemaakt gebaseerd op de flowchart, wederom is het simpel en makkelijk te lezen,<br> ook voor mensen die geen ervaringen hebben met programmeren. </p>
+        <hr>
+        <h2>Download de voorbereiding</h2>
+        <div >
+            <a href="Voorbereiding.zip" download="voorbereiding.zip"><button id="button-1" style="cursor: pointer;"><b><i class="fa-solid fa-download"></i> DOWNLOAD (.zip)</b></button></a>
+        </div>
+        <p style="text-align: center;">Als je geïntereseerd bent in de voorbereiding van mijn Lingo programma, kun je op de download knop klikken om een .zip file krijgen zowel de flowchart als de psuedocode.</p>
+    
+    </main>
+
+
+
+    <footer>
+        <p>2024 &copy; Gemaakt door <a href="https://aydindavinci.github.io" target="_blank">Aydin</a> 👾 | <a href="https://github.com/AydinDavinci" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+    </footer>
+
+</body>
+</html>

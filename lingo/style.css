@@ -1,0 +1,172 @@
+/* Algemene opmaak */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    
+}
+
+p, h1, h2, h3 {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+header {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 16px;
+    opacity: 70%;
+}
+
+header:hover{
+    opacity: 100%;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    background-color: #fff;
+    justify-content: left;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 180px;
+}
+
+main p {
+    text-align: left;
+}
+
+main h3 {
+    text-align: left;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p, ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+footer {
+    color: #333;
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+#logo {
+    width: 100px;
+    height: 100px;
+
+}
+
+#logo:hover {
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-timing-function: linear; 
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+footer a {
+    color: #333;
+}
+
+#flowchart-img {
+    width: 500px;
+    height: 900px;
+}
+
+.code-box {
+    width: 60%;
+    height: 100%;
+    background-color: #1A1A1D;
+    text-align: left;
+    padding: 10px; 
+    border-radius: 5px;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    font-family: monospace;
+}
+
+button {
+    padding: 15px;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #333;
+    background-color: transparent;
+    color: #333;
+    border-radius: 5px;
+}
+
+button:hover {
+    border-style: solid;
+    background-color: #333;
+    color: white;
+}
+
+#download-nav-btn {
+    color: white;
+    background-color: #333;
+    border-color: white;
+    border-width: 2px;
+    border-style: dashed;
+    padding: 7px;
+    border-radius: 5px;
+    justify-content: right;
+}
+
+#download-nav-btn:hover {
+    background-color: white;
+    color: #333;
+}
+
+#download-nav-btn:hover {
+    text-decoration: none;
+}
+
