@@ -1,0 +1,293 @@
+:root {
+    --accent: #5e5ef7;
+    --background-dark: #1e1e1e;
+    --background-light: #2c2c2c;
+    --text-primary: #d4d4d4;
+    --text-secondary: #999;
+    --hover-accent: #4c4ccc;
+}
+
+body {
+    background-color: var(--background-dark);
+    color: var(--text-primary);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#frame {
+    width: 600px;
+    margin: 20px auto;
+    background-color: var(--background-light);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#filtermenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dropdown,
+#prijsinput {
+    background-color: #3a3a3a;
+    border: 2px solid var(--accent);
+    border-radius: 5px;
+    color: var(--text-primary);
+    padding: 8px;
+    font-size: 14px;
+    width: 100px;
+    transition: border-color 0.3s;
+}
+
+.dropdown:hover,
+#prijsinput:hover {
+    border-color: var(--hover-accent);
+}
+
+button {
+    background-color: var(--accent);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: var(--hover-accent);
+    transform: scale(1.03);
+}
+
+button:disabled {
+    background-color: rgb(85, 85, 85);
+    cursor: not-allowed;
+}
+
+.doorgaanknop {
+    display: block;
+    margin: 15px auto;
+    width: 180px;
+    text-align: center;
+    float: right;
+}
+
+#overzicht {
+    max-width: 100%;
+    max-height: 400px;
+    background-color: var(--background-light);
+    color: var(--text-primary);
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 5px;
+}
+
+#overzicht::-webkit-scrollbar {
+    width: 6px;
+}
+
+#overzicht::-webkit-scrollbar-track {
+    background: var(--background-dark);
+}
+
+#overzicht::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 10px;
+}
+
+#gameitemlist {
+    width: calc(100% - 10px);
+    min-height: 60px; 
+    border: 2px solid #444;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: var(--background-light);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#gameitemlist:hover {
+    background-color: #383838;
+    transform: scale(1.02);
+}
+
+#gameitem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+#gamecheckbox {
+    margin-right: 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+#gameitem h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+#gameGenre,
+#gameRating {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+#gamePrijsGroen {
+    color: rgb(84, 167, 84);
+}
+
+#winkelmandje {
+    width: 100%;
+    max-height: 400px;
+    background-color: var(--background-light);
+    color: var(--text-primary);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    overflow-y: auto;
+}
+
+#winkelmandje::-webkit-scrollbar {
+    width: 6px;
+
+}
+
+#winkelmandje::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 10px;
+}
+
+#gemaaktdoor, #gemaaktdoor a {
+    font-size: 14px;
+    color: grey;
+    text-decoration: none;
+}
+
+#gemaaktdoor a:hover{
+    color: var(--hover-accent);
+    text-decoration:underline;
+}
+
+#winkelmandjeframe {
+    width: 600px;
+    margin: 20px auto;
+    background-color: var(--background-light);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.game-item {
+    width: calc(100% - 10px);
+    min-height: 60px; 
+    border: 2px solid #444;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: var(--background-light);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.game-item:hover {
+    transform: scale(1.02);
+}
+
+.game-item h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.game-item p {
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+.game-item button {
+    padding: 5px 10px;
+    background-color: var(--accent);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.game-item button:hover {
+    background-color: #fa2f62;
+}
+
+#betaalknop {
+    margin-top: 20px;
+    background-color: var(--accent);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: block;
+    margin: 20px auto;
+}
+
+#betaalknop:hover {
+    background-color: var(--hover-accent);
+    transform: scale(1.03);
+}
+.game-item {
+    display: flex;
+    justify-content: space-between; /* Verspreid de inhoud */
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: var(--background-light);
+    border: 2px solid #444;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.game-item:hover {
+    transform: scale(1.02);
+}
+
+.game-item h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    flex: 1; /* Zorg ervoor dat de titel de overgebleven ruimte inneemt */
+}
+
+.game-item p {
+    font-size: 1rem;
+    margin: 0;
+    text-align: right; /* Zorg ervoor dat de prijs rechts uitgelijnd is */
+    min-width: 60px; /* Zorg ervoor dat alle prijzen consistent worden uitgelijnd */
+}

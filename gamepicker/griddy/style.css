@@ -1,0 +1,15 @@
+main {
+    padding: 150px;
+    font-family: arial;
+}
+
+img {
+    max-height: 250px;
+    max-width: 200px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+}

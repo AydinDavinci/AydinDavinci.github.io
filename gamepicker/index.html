@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🕹️⛏️Gamepicker⛏️🕹️</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <div id="frame">
+            <h2>overzicht 🎮</h2>
+            <div id="filtermenu">
+                        <select class="dropdown" name="genre" id="genreid">
+                                <option value="FPS">FPS</option>
+                                <option value="MOBA">MOBA </option>
+                                 <option value="Action">Action</option>
+                                <option value="Simulation">Simulation</option>
+                                <option value="Looter-shooter">Looter-shooter</option>
+                                <option value="Sport">Sport</option>
+                                <option value="Sandbox">Sandbox</option>
+                            </select>
+                        <button type="button" id="okknopgenre">OK</button>
+                    </form>
+                    <form action="">
+                        <select class="dropdown" name="rating" id="ratingid">
+                                <option value="1">1 ★</option>
+                                <option value="2">2 ★</option>
+                                <option value="3">3 ★</option>
+                                <option value="4">4 ★</option>
+                                <option value="5">5 ★</option>
+                            </select>
+                        <button type="button" id="okknoprating">OK</button>
+                    </form>
+                    <form id="priceForm">
+                            <label>€ </label><input id="prijsinput" name="prijs" type="text"
+                                placeholder="prijs lager dan...">
+                            <button type="button" id="submitknop">OK</button>
+                    </form>
+            </div>
+            <br><br><br>
+            <div id="overzicht"></div>
+            <form>
+                <button type="button" class="doorgaanknop" id="doorgaan" onclick="hide('frame');show('winkelmandjeframe')">Doorgaan ⚡</button>
+            </form>
+            <p id="gemaaktdoor">Gemaakt door <a href="https://aydindavinci.github.io" target="_blank">Aydin</a></p>
+        </div>
+        <div id="winkelmandjeframe" style="display: none;">
+            <h2>winkelmandje 🛒</h2>
+            <div id="winkelmandjeItems"></div>
+            <button id="terugknop" onclick="hide('winkelmandjeframe'); show('frame')">Terug ❌</button>
+            <button id="betaalknop">€<span id="totaalPrijs">0.00</span> 🧾</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
